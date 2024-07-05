@@ -9,7 +9,7 @@ const port = 3000;
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-const uri =  "mongodb://root:NDcwNi1hZHJpdGVr@localhost:27017";
+const uri =  "mongodb://root:secret@localhost:27017";
 mongoose.connect(uri, {'dbName': 'transactionsDB'});
 
 // Use Vendor Payments routes
